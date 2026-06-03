@@ -1,51 +1,73 @@
 package controller;
 
-import repository.GroupDB;
+import model.Balance;
+import model.Expense;
+import model.Group;
+import model.User;
+import repository.ExpenseRepository;
+import repository.GroupRepository;
+import repository.UserRepository;
+import service.BalanceService;
+import service.ExpenseService;
 import service.GroupService;
-import service.TransactionService;
 import service.UserService;
 
-import java.util.Scanner;
+import java.util.List;
+import java.util.Set;
 
 public class SplitWiseController {
 
-    Scanner scn;
-    UserService userService;
-    TransactionService transactionService;
-    GroupService groupService;
-    public SplitWiseController(){
-        this.scn = new Scanner(System.in);
-        this.groupService = new GroupService();
-        this.transactionService = new TransactionService();
-        this.userService = new UserService();
+    private final UserService userService;
+    private final GroupService groupService;
+    private final ExpenseService expenseService;
+    private final BalanceService balanceService;
+
+    public SplitWiseController() {
+        UserRepository userRepository = new UserRepository();
+        GroupRepository groupRepository = new GroupRepository();
+        ExpenseRepository expenseRepository = new ExpenseRepository();
+
+        this.userService = new UserService(userRepository);
+        this.groupService = new GroupService(groupRepository, userRepository);
+        this.expenseService = new ExpenseService(expenseRepository, groupRepository, userRepository);
+        this.balanceService = new BalanceService(expenseRepository, groupRepository);
     }
 
+    public User createUser(String name) {
+        return userService.createUser(name);
+    }
 
-    public void startProgram(){
-        while(true){
-            System.out.println("Hey What you want to do ? Select below options");
-            System.out.println(
-                    "1. create-group\n" +
-                            "2. Do transaction in a group\n" +
-                            "3. create user\n" +
-                            "4. Show which users owes how much amount in the group and whom he owes");
-            int opt = scn.nextInt();
-            if(opt == 1){
-                System.out.println("User selected opt 1 i.e. group");
-                groupService.createGroup(scn);
-                System.out.println("Group created successfully");
-            }else if(opt == 2){
+    public User getUserById(int userId) {
+        return userService.getUserById(userId);
+    }
 
-            }else if(opt == 3){
+    public List<User> getUsers() {
+        return userService.getAllUsers();
+    }
 
-            }else if(opt == 4){
+    public Group createGroup(String name, Set<Integer> memberIds) {
+        return groupService.createGroup(name, memberIds);
+    }
 
-            }else{
-                System.out.println("Wrong option entered. Enter value again");
-                continue;
-            }
+    public Group getGroupById(int groupId) {
+        return groupService.getGroupById(groupId);
+    }
 
-            System.out.println("Are you satisfied?(Yes/No)");
-        }
+    public List<Group> getGroups() {
+        return groupService.getAllGroups();
+    }
+
+    public Expense addEqualExpense(
+            int groupId,
+            int paidByUserId,
+            int amount,
+            String description,
+            Set<Integer> participantIds
+    ) {
+        return expenseService.addEqualExpense(groupId, paidByUserId, amount, description, participantIds);
+    }
+
+    public List<Balance> getGroupBalances(int groupId) {
+        return balanceService.calculateBalances(groupId);
     }
 }

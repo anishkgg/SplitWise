@@ -1,20 +1,26 @@
 package model;
 
+import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
 public class Group {
-    int id;
-    HashSet<Integer> users;
-    List<Transaction> transactions;
+    private int id;
+    private String name;
+    private Set<Integer> memberIds;
+    private List<Integer> expenseIds;
 
-    public Group(int id, HashSet<Integer> users, List<Transaction> transactions) {
+    public Group(int id, String name, Set<Integer> memberIds) {
         this.id = id;
-        this.users = users;
-        this.transactions = transactions;
+        this.name = name;
+        this.memberIds = new HashSet<>(memberIds);
+        this.expenseIds = new ArrayList<>();
     }
 
     public Group() {
+        this.memberIds = new HashSet<>();
+        this.expenseIds = new ArrayList<>();
     }
 
     public int getId() {
@@ -25,28 +31,41 @@ public class Group {
         this.id = id;
     }
 
-    public HashSet<Integer> getUsers() {
-        return users;
+    public String getName() {
+        return name;
     }
 
-    public void setUsers(HashSet<Integer> users) {
-        this.users = users;
+    public void setName(String name) {
+        this.name = name;
     }
 
-    public List<Transaction> getTransactions() {
-        return transactions;
+    public Set<Integer> getMemberIds() {
+        return memberIds;
     }
 
-    public void setTransactions(List<Transaction> transactions) {
-        this.transactions = transactions;
+    public void setMemberIds(Set<Integer> memberIds) {
+        this.memberIds = memberIds;
+    }
+
+    public List<Integer> getExpenseIds() {
+        return expenseIds;
+    }
+
+    public void setExpenseIds(List<Integer> expenseIds) {
+        this.expenseIds = expenseIds;
+    }
+
+    public void addExpenseId(int expenseId) {
+        this.expenseIds.add(expenseId);
     }
 
     @Override
     public String toString() {
         return "Group{" +
                 "id=" + id +
-                ", users=" + users +
-                ", transactions=" + transactions +
+                ", name='" + name + '\'' +
+                ", memberIds=" + memberIds +
+                ", expenseIds=" + expenseIds +
                 '}';
     }
 }

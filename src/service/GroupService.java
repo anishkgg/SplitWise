@@ -1,38 +1,51 @@
 package service;
 
 import model.Group;
-import repository.GroupDB;
+import repository.GroupRepository;
+import repository.UserRepository;
 
-import java.util.ArrayList;
 import java.util.HashSet;
-import java.util.Scanner;
+import java.util.List;
+import java.util.Set;
 
 public class GroupService {
-    GroupDB groupDB;
+    private final GroupRepository groupRepository;
+    private final UserRepository userRepository;
 
-    public GroupService(){
-        this.groupDB = new GroupDB();
+    public GroupService(GroupRepository groupRepository, UserRepository userRepository) {
+        this.groupRepository = groupRepository;
+        this.userRepository = userRepository;
     }
 
-    public Group createGroup(Scanner scn){
-        System.out.println("How many users you want to add in this group !!");
-        int totalUser = scn.nextInt();
-        HashSet<Integer> userIds = new HashSet<>();
-        for(int i  = 0; i < totalUser; i++){
-            System.out.println(String.format("Enter id of %d user", i));
-            int userId = scn.nextInt();
-            userIds.add(userId);
+    public Group createGroup(String name, Set<Integer> memberIds) {
+        if (name == null || name.trim().isEmpty()) {
+            throw new IllegalArgumentException("Group name cannot be empty");
+        }
+        if (memberIds == null || memberIds.isEmpty()) {
+            throw new IllegalArgumentException("Group must have at least one user");
         }
 
-        Group group = new Group();
-        int id = groupDB.tellTotalGroups() + 1;
-        group.setId(id);
-        group.setUsers(userIds);
-        group.setTransactions(new ArrayList<>());
+        Set<Integer> uniqueMemberIds = new HashSet<>(memberIds);
+        for (int userId : uniqueMemberIds) {
+            if (!userRepository.existsById(userId)) {
+                throw new IllegalArgumentException("User does not exist: " + userId);
+            }
+        }
 
-        groupDB.saveGroup(group);
-
+        Group group = new Group(groupRepository.getNextId(), name.trim(), uniqueMemberIds);
+        groupRepository.save(group);
         return group;
+    }
 
+    public Group getGroupById(int groupId) {
+        Group group = groupRepository.findById(groupId);
+        if (group == null) {
+            throw new IllegalArgumentException("Group does not exist: " + groupId);
+        }
+        return group;
+    }
+
+    public List<Group> getAllGroups() {
+        return groupRepository.findAll();
     }
 }
