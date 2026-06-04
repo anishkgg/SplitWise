@@ -1,0 +1,2432 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Main.java",
+      "file_type": "code",
+      "source_file": "src/Main.java",
+      "source_location": "L1",
+      "id": "src_main_java",
+      "community": 9,
+      "norm_label": "main.java"
+    },
+    {
+      "label": "Main",
+      "file_type": "code",
+      "source_file": "src/Main.java",
+      "source_location": "L9",
+      "id": "src_main_main",
+      "community": 9,
+      "norm_label": "main"
+    },
+    {
+      "label": ".main()",
+      "file_type": "code",
+      "source_file": "src/Main.java",
+      "source_location": "L10",
+      "id": "src_main_main_main",
+      "community": 9,
+      "norm_label": ".main()"
+    },
+    {
+      "label": "String",
+      "file_type": "code",
+      "source_file": "src/Main.java",
+      "source_location": "L10",
+      "id": "src_main_java_string",
+      "community": 9,
+      "norm_label": "string"
+    },
+    {
+      "label": "SplitWiseController.java",
+      "file_type": "code",
+      "source_file": "src/controller/SplitWiseController.java",
+      "source_location": "L1",
+      "id": "src_controller_splitwisecontroller_java",
+      "community": 0,
+      "norm_label": "splitwisecontroller.java"
+    },
+    {
+      "label": "SplitWiseController",
+      "file_type": "code",
+      "source_file": "src/controller/SplitWiseController.java",
+      "source_location": "L18",
+      "id": "controller_splitwisecontroller_splitwisecontroller",
+      "community": 0,
+      "norm_label": "splitwisecontroller"
+    },
+    {
+      "label": ".SplitWiseController()",
+      "file_type": "code",
+      "source_file": "src/controller/SplitWiseController.java",
+      "source_location": "L25",
+      "id": "controller_splitwisecontroller_splitwisecontroller_splitwisecontroller",
+      "community": 0,
+      "norm_label": ".splitwisecontroller()"
+    },
+    {
+      "label": ".createUser()",
+      "file_type": "code",
+      "source_file": "src/controller/SplitWiseController.java",
+      "source_location": "L36",
+      "id": "controller_splitwisecontroller_splitwisecontroller_createuser",
+      "community": 0,
+      "norm_label": ".createuser()"
+    },
+    {
+      "label": "String",
+      "file_type": "code",
+      "source_file": "src/controller/SplitWiseController.java",
+      "source_location": "L36",
+      "id": "src_controller_splitwisecontroller_java_string",
+      "community": 0,
+      "norm_label": "string"
+    },
+    {
+      "label": "User",
+      "file_type": "code",
+      "source_file": "src/controller/SplitWiseController.java",
+      "source_location": "L36",
+      "id": "src_controller_splitwisecontroller_java_user",
+      "community": 0,
+      "norm_label": "user"
+    },
+    {
+      "label": ".getUserById()",
+      "file_type": "code",
+      "source_file": "src/controller/SplitWiseController.java",
+      "source_location": "L40",
+      "id": "controller_splitwisecontroller_splitwisecontroller_getuserbyid",
+      "community": 0,
+      "norm_label": ".getuserbyid()"
+    },
+    {
+      "label": ".getUsers()",
+      "file_type": "code",
+      "source_file": "src/controller/SplitWiseController.java",
+      "source_location": "L44",
+      "id": "controller_splitwisecontroller_splitwisecontroller_getusers",
+      "community": 0,
+      "norm_label": ".getusers()"
+    },
+    {
+      "label": "List",
+      "file_type": "code",
+      "source_file": "src/controller/SplitWiseController.java",
+      "source_location": "L44",
+      "id": "src_controller_splitwisecontroller_java_list",
+      "community": 0,
+      "norm_label": "list"
+    },
+    {
+      "label": ".createGroup()",
+      "file_type": "code",
+      "source_file": "src/controller/SplitWiseController.java",
+      "source_location": "L48",
+      "id": "controller_splitwisecontroller_splitwisecontroller_creategroup",
+      "community": 0,
+      "norm_label": ".creategroup()"
+    },
+    {
+      "label": "Set",
+      "file_type": "code",
+      "source_file": "src/controller/SplitWiseController.java",
+      "source_location": "L48",
+      "id": "src_controller_splitwisecontroller_java_set",
+      "community": 0,
+      "norm_label": "set"
+    },
+    {
+      "label": "Integer",
+      "file_type": "code",
+      "source_file": "src/controller/SplitWiseController.java",
+      "source_location": "L48",
+      "id": "src_controller_splitwisecontroller_java_integer",
+      "community": 0,
+      "norm_label": "integer"
+    },
+    {
+      "label": "Group",
+      "file_type": "code",
+      "source_file": "src/controller/SplitWiseController.java",
+      "source_location": "L48",
+      "id": "src_controller_splitwisecontroller_java_group",
+      "community": 0,
+      "norm_label": "group"
+    },
+    {
+      "label": ".getGroupById()",
+      "file_type": "code",
+      "source_file": "src/controller/SplitWiseController.java",
+      "source_location": "L52",
+      "id": "controller_splitwisecontroller_splitwisecontroller_getgroupbyid",
+      "community": 0,
+      "norm_label": ".getgroupbyid()"
+    },
+    {
+      "label": ".getGroups()",
+      "file_type": "code",
+      "source_file": "src/controller/SplitWiseController.java",
+      "source_location": "L56",
+      "id": "controller_splitwisecontroller_splitwisecontroller_getgroups",
+      "community": 0,
+      "norm_label": ".getgroups()"
+    },
+    {
+      "label": ".addEqualExpense()",
+      "file_type": "code",
+      "source_file": "src/controller/SplitWiseController.java",
+      "source_location": "L60",
+      "id": "controller_splitwisecontroller_splitwisecontroller_addequalexpense",
+      "community": 0,
+      "norm_label": ".addequalexpense()"
+    },
+    {
+      "label": "Expense",
+      "file_type": "code",
+      "source_file": "src/controller/SplitWiseController.java",
+      "source_location": "L60",
+      "id": "src_controller_splitwisecontroller_java_expense",
+      "community": 0,
+      "norm_label": "expense"
+    },
+    {
+      "label": ".getGroupBalances()",
+      "file_type": "code",
+      "source_file": "src/controller/SplitWiseController.java",
+      "source_location": "L70",
+      "id": "controller_splitwisecontroller_splitwisecontroller_getgroupbalances",
+      "community": 0,
+      "norm_label": ".getgroupbalances()"
+    },
+    {
+      "label": "Balance",
+      "file_type": "code",
+      "source_file": "src/controller/SplitWiseController.java",
+      "source_location": "L70",
+      "id": "src_controller_splitwisecontroller_java_balance",
+      "community": 0,
+      "norm_label": "balance"
+    },
+    {
+      "label": "Balance.java",
+      "file_type": "code",
+      "source_file": "src/model/Balance.java",
+      "source_location": "L1",
+      "id": "src_model_balance_java",
+      "community": 11,
+      "norm_label": "balance.java"
+    },
+    {
+      "label": "Balance",
+      "file_type": "code",
+      "source_file": "src/model/Balance.java",
+      "source_location": "L7",
+      "id": "model_balance_balance",
+      "community": 11,
+      "norm_label": "balance"
+    },
+    {
+      "label": "Expense.java",
+      "file_type": "code",
+      "source_file": "src/model/Expense.java",
+      "source_location": "L1",
+      "id": "src_model_expense_java",
+      "community": 10,
+      "norm_label": "expense.java"
+    },
+    {
+      "label": "Expense",
+      "file_type": "code",
+      "source_file": "src/model/Expense.java",
+      "source_location": "L9",
+      "id": "model_expense_expense",
+      "community": 10,
+      "norm_label": "expense"
+    },
+    {
+      "label": "Group.java",
+      "file_type": "code",
+      "source_file": "src/model/Group.java",
+      "source_location": "L1",
+      "id": "src_model_group_java",
+      "community": 8,
+      "norm_label": "group.java"
+    },
+    {
+      "label": "Group",
+      "file_type": "code",
+      "source_file": "src/model/Group.java",
+      "source_location": "L12",
+      "id": "model_group_group",
+      "community": 8,
+      "norm_label": "group"
+    },
+    {
+      "label": ".Group()",
+      "file_type": "code",
+      "source_file": "src/model/Group.java",
+      "source_location": "L21",
+      "id": "model_group_group_group",
+      "community": 8,
+      "norm_label": ".group()"
+    },
+    {
+      "label": "String",
+      "file_type": "code",
+      "source_file": "src/model/Group.java",
+      "source_location": "L21",
+      "id": "src_model_group_java_string",
+      "community": 8,
+      "norm_label": "string"
+    },
+    {
+      "label": "Set",
+      "file_type": "code",
+      "source_file": "src/model/Group.java",
+      "source_location": "L21",
+      "id": "src_model_group_java_set",
+      "community": 8,
+      "norm_label": "set"
+    },
+    {
+      "label": "Integer",
+      "file_type": "code",
+      "source_file": "src/model/Group.java",
+      "source_location": "L21",
+      "id": "src_model_group_java_integer",
+      "community": 8,
+      "norm_label": "integer"
+    },
+    {
+      "label": ".addExpenseId()",
+      "file_type": "code",
+      "source_file": "src/model/Group.java",
+      "source_location": "L28",
+      "id": "model_group_group_addexpenseid",
+      "community": 8,
+      "norm_label": ".addexpenseid()"
+    },
+    {
+      "label": "User.java",
+      "file_type": "code",
+      "source_file": "src/model/User.java",
+      "source_location": "L1",
+      "id": "src_model_user_java",
+      "community": 12,
+      "norm_label": "user.java"
+    },
+    {
+      "label": "User",
+      "file_type": "code",
+      "source_file": "src/model/User.java",
+      "source_location": "L7",
+      "id": "model_user_user",
+      "community": 12,
+      "norm_label": "user"
+    },
+    {
+      "label": "ExpenseRepository.java",
+      "file_type": "code",
+      "source_file": "src/repository/ExpenseRepository.java",
+      "source_location": "L1",
+      "id": "src_repository_expenserepository_java",
+      "community": 4,
+      "norm_label": "expenserepository.java"
+    },
+    {
+      "label": "ExpenseRepository",
+      "file_type": "code",
+      "source_file": "src/repository/ExpenseRepository.java",
+      "source_location": "L10",
+      "id": "repository_expenserepository_expenserepository",
+      "community": 4,
+      "norm_label": "expenserepository"
+    },
+    {
+      "label": ".ExpenseRepository()",
+      "file_type": "code",
+      "source_file": "src/repository/ExpenseRepository.java",
+      "source_location": "L14",
+      "id": "repository_expenserepository_expenserepository_expenserepository",
+      "community": 4,
+      "norm_label": ".expenserepository()"
+    },
+    {
+      "label": ".getNextId()",
+      "file_type": "code",
+      "source_file": "src/repository/ExpenseRepository.java",
+      "source_location": "L19",
+      "id": "repository_expenserepository_expenserepository_getnextid",
+      "community": 4,
+      "norm_label": ".getnextid()"
+    },
+    {
+      "label": ".save()",
+      "file_type": "code",
+      "source_file": "src/repository/ExpenseRepository.java",
+      "source_location": "L23",
+      "id": "repository_expenserepository_expenserepository_save",
+      "community": 4,
+      "norm_label": ".save()"
+    },
+    {
+      "label": "Expense",
+      "file_type": "code",
+      "source_file": "src/repository/ExpenseRepository.java",
+      "source_location": "L23",
+      "id": "src_repository_expenserepository_java_expense",
+      "community": 4,
+      "norm_label": "expense"
+    },
+    {
+      "label": ".findById()",
+      "file_type": "code",
+      "source_file": "src/repository/ExpenseRepository.java",
+      "source_location": "L27",
+      "id": "repository_expenserepository_expenserepository_findbyid",
+      "community": 4,
+      "norm_label": ".findbyid()"
+    },
+    {
+      "label": ".findByGroupId()",
+      "file_type": "code",
+      "source_file": "src/repository/ExpenseRepository.java",
+      "source_location": "L31",
+      "id": "repository_expenserepository_expenserepository_findbygroupid",
+      "community": 4,
+      "norm_label": ".findbygroupid()"
+    },
+    {
+      "label": "List",
+      "file_type": "code",
+      "source_file": "src/repository/ExpenseRepository.java",
+      "source_location": "L31",
+      "id": "src_repository_expenserepository_java_list",
+      "community": 4,
+      "norm_label": "list"
+    },
+    {
+      "label": "GroupRepository.java",
+      "file_type": "code",
+      "source_file": "src/repository/GroupRepository.java",
+      "source_location": "L1",
+      "id": "src_repository_grouprepository_java",
+      "community": 3,
+      "norm_label": "grouprepository.java"
+    },
+    {
+      "label": "GroupRepository",
+      "file_type": "code",
+      "source_file": "src/repository/GroupRepository.java",
+      "source_location": "L10",
+      "id": "repository_grouprepository_grouprepository",
+      "community": 3,
+      "norm_label": "grouprepository"
+    },
+    {
+      "label": ".GroupRepository()",
+      "file_type": "code",
+      "source_file": "src/repository/GroupRepository.java",
+      "source_location": "L14",
+      "id": "repository_grouprepository_grouprepository_grouprepository",
+      "community": 3,
+      "norm_label": ".grouprepository()"
+    },
+    {
+      "label": ".getNextId()",
+      "file_type": "code",
+      "source_file": "src/repository/GroupRepository.java",
+      "source_location": "L19",
+      "id": "repository_grouprepository_grouprepository_getnextid",
+      "community": 3,
+      "norm_label": ".getnextid()"
+    },
+    {
+      "label": ".save()",
+      "file_type": "code",
+      "source_file": "src/repository/GroupRepository.java",
+      "source_location": "L23",
+      "id": "repository_grouprepository_grouprepository_save",
+      "community": 3,
+      "norm_label": ".save()"
+    },
+    {
+      "label": "Group",
+      "file_type": "code",
+      "source_file": "src/repository/GroupRepository.java",
+      "source_location": "L23",
+      "id": "src_repository_grouprepository_java_group",
+      "community": 3,
+      "norm_label": "group"
+    },
+    {
+      "label": ".findById()",
+      "file_type": "code",
+      "source_file": "src/repository/GroupRepository.java",
+      "source_location": "L27",
+      "id": "repository_grouprepository_grouprepository_findbyid",
+      "community": 3,
+      "norm_label": ".findbyid()"
+    },
+    {
+      "label": ".existsById()",
+      "file_type": "code",
+      "source_file": "src/repository/GroupRepository.java",
+      "source_location": "L31",
+      "id": "repository_grouprepository_grouprepository_existsbyid",
+      "community": 3,
+      "norm_label": ".existsbyid()"
+    },
+    {
+      "label": ".findAll()",
+      "file_type": "code",
+      "source_file": "src/repository/GroupRepository.java",
+      "source_location": "L35",
+      "id": "repository_grouprepository_grouprepository_findall",
+      "community": 3,
+      "norm_label": ".findall()"
+    },
+    {
+      "label": "List",
+      "file_type": "code",
+      "source_file": "src/repository/GroupRepository.java",
+      "source_location": "L35",
+      "id": "src_repository_grouprepository_java_list",
+      "community": 3,
+      "norm_label": "list"
+    },
+    {
+      "label": "UserRepository.java",
+      "file_type": "code",
+      "source_file": "src/repository/UserRepository.java",
+      "source_location": "L1",
+      "id": "src_repository_userrepository_java",
+      "community": 1,
+      "norm_label": "userrepository.java"
+    },
+    {
+      "label": "UserRepository",
+      "file_type": "code",
+      "source_file": "src/repository/UserRepository.java",
+      "source_location": "L10",
+      "id": "repository_userrepository_userrepository",
+      "community": 1,
+      "norm_label": "userrepository"
+    },
+    {
+      "label": ".UserRepository()",
+      "file_type": "code",
+      "source_file": "src/repository/UserRepository.java",
+      "source_location": "L14",
+      "id": "repository_userrepository_userrepository_userrepository",
+      "community": 1,
+      "norm_label": ".userrepository()"
+    },
+    {
+      "label": ".getNextId()",
+      "file_type": "code",
+      "source_file": "src/repository/UserRepository.java",
+      "source_location": "L19",
+      "id": "repository_userrepository_userrepository_getnextid",
+      "community": 1,
+      "norm_label": ".getnextid()"
+    },
+    {
+      "label": ".save()",
+      "file_type": "code",
+      "source_file": "src/repository/UserRepository.java",
+      "source_location": "L23",
+      "id": "repository_userrepository_userrepository_save",
+      "community": 1,
+      "norm_label": ".save()"
+    },
+    {
+      "label": "User",
+      "file_type": "code",
+      "source_file": "src/repository/UserRepository.java",
+      "source_location": "L23",
+      "id": "src_repository_userrepository_java_user",
+      "community": 1,
+      "norm_label": "user"
+    },
+    {
+      "label": ".findById()",
+      "file_type": "code",
+      "source_file": "src/repository/UserRepository.java",
+      "source_location": "L27",
+      "id": "repository_userrepository_userrepository_findbyid",
+      "community": 1,
+      "norm_label": ".findbyid()"
+    },
+    {
+      "label": ".existsById()",
+      "file_type": "code",
+      "source_file": "src/repository/UserRepository.java",
+      "source_location": "L31",
+      "id": "repository_userrepository_userrepository_existsbyid",
+      "community": 1,
+      "norm_label": ".existsbyid()"
+    },
+    {
+      "label": ".findAll()",
+      "file_type": "code",
+      "source_file": "src/repository/UserRepository.java",
+      "source_location": "L35",
+      "id": "repository_userrepository_userrepository_findall",
+      "community": 1,
+      "norm_label": ".findall()"
+    },
+    {
+      "label": "List",
+      "file_type": "code",
+      "source_file": "src/repository/UserRepository.java",
+      "source_location": "L35",
+      "id": "src_repository_userrepository_java_list",
+      "community": 1,
+      "norm_label": "list"
+    },
+    {
+      "label": "BalanceService.java",
+      "file_type": "code",
+      "source_file": "src/service/BalanceService.java",
+      "source_location": "L1",
+      "id": "src_service_balanceservice_java",
+      "community": 6,
+      "norm_label": "balanceservice.java"
+    },
+    {
+      "label": "BalanceService",
+      "file_type": "code",
+      "source_file": "src/service/BalanceService.java",
+      "source_location": "L15",
+      "id": "service_balanceservice_balanceservice",
+      "community": 6,
+      "norm_label": "balanceservice"
+    },
+    {
+      "label": ".calculateBalances()",
+      "file_type": "code",
+      "source_file": "src/service/BalanceService.java",
+      "source_location": "L20",
+      "id": "service_balanceservice_balanceservice_calculatebalances",
+      "community": 6,
+      "norm_label": ".calculatebalances()"
+    },
+    {
+      "label": "List",
+      "file_type": "code",
+      "source_file": "src/service/BalanceService.java",
+      "source_location": "L20",
+      "id": "src_service_balanceservice_java_list",
+      "community": 6,
+      "norm_label": "list"
+    },
+    {
+      "label": "Balance",
+      "file_type": "code",
+      "source_file": "src/service/BalanceService.java",
+      "source_location": "L20",
+      "id": "src_service_balanceservice_java_balance",
+      "community": 6,
+      "norm_label": "balance"
+    },
+    {
+      "label": ".simplifyBalances()",
+      "file_type": "code",
+      "source_file": "src/service/BalanceService.java",
+      "source_location": "L44",
+      "id": "service_balanceservice_balanceservice_simplifybalances",
+      "community": 6,
+      "norm_label": ".simplifybalances()"
+    },
+    {
+      "label": "Map",
+      "file_type": "code",
+      "source_file": "src/service/BalanceService.java",
+      "source_location": "L44",
+      "id": "src_service_balanceservice_java_map",
+      "community": 6,
+      "norm_label": "map"
+    },
+    {
+      "label": "Integer",
+      "file_type": "code",
+      "source_file": "src/service/BalanceService.java",
+      "source_location": "L44",
+      "id": "src_service_balanceservice_java_integer",
+      "community": 6,
+      "norm_label": "integer"
+    },
+    {
+      "label": "ExpenseService.java",
+      "file_type": "code",
+      "source_file": "src/service/ExpenseService.java",
+      "source_location": "L1",
+      "id": "src_service_expenseservice_java",
+      "community": 5,
+      "norm_label": "expenseservice.java"
+    },
+    {
+      "label": "ExpenseService",
+      "file_type": "code",
+      "source_file": "src/service/ExpenseService.java",
+      "source_location": "L16",
+      "id": "service_expenseservice_expenseservice",
+      "community": 5,
+      "norm_label": "expenseservice"
+    },
+    {
+      "label": ".addEqualExpense()",
+      "file_type": "code",
+      "source_file": "src/service/ExpenseService.java",
+      "source_location": "L22",
+      "id": "service_expenseservice_expenseservice_addequalexpense",
+      "community": 5,
+      "norm_label": ".addequalexpense()"
+    },
+    {
+      "label": "String",
+      "file_type": "code",
+      "source_file": "src/service/ExpenseService.java",
+      "source_location": "L22",
+      "id": "src_service_expenseservice_java_string",
+      "community": 5,
+      "norm_label": "string"
+    },
+    {
+      "label": "Set",
+      "file_type": "code",
+      "source_file": "src/service/ExpenseService.java",
+      "source_location": "L22",
+      "id": "src_service_expenseservice_java_set",
+      "community": 5,
+      "norm_label": "set"
+    },
+    {
+      "label": "Integer",
+      "file_type": "code",
+      "source_file": "src/service/ExpenseService.java",
+      "source_location": "L22",
+      "id": "src_service_expenseservice_java_integer",
+      "community": 5,
+      "norm_label": "integer"
+    },
+    {
+      "label": "Expense",
+      "file_type": "code",
+      "source_file": "src/service/ExpenseService.java",
+      "source_location": "L22",
+      "id": "src_service_expenseservice_java_expense",
+      "community": 5,
+      "norm_label": "expense"
+    },
+    {
+      "label": ".calculateEqualSplit()",
+      "file_type": "code",
+      "source_file": "src/service/ExpenseService.java",
+      "source_location": "L63",
+      "id": "service_expenseservice_expenseservice_calculateequalsplit",
+      "community": 5,
+      "norm_label": ".calculateequalsplit()"
+    },
+    {
+      "label": "Map",
+      "file_type": "code",
+      "source_file": "src/service/ExpenseService.java",
+      "source_location": "L63",
+      "id": "src_service_expenseservice_java_map",
+      "community": 5,
+      "norm_label": "map"
+    },
+    {
+      "label": "GroupService.java",
+      "file_type": "code",
+      "source_file": "src/service/GroupService.java",
+      "source_location": "L1",
+      "id": "src_service_groupservice_java",
+      "community": 2,
+      "norm_label": "groupservice.java"
+    },
+    {
+      "label": "GroupService",
+      "file_type": "code",
+      "source_file": "src/service/GroupService.java",
+      "source_location": "L13",
+      "id": "service_groupservice_groupservice",
+      "community": 2,
+      "norm_label": "groupservice"
+    },
+    {
+      "label": ".createGroup()",
+      "file_type": "code",
+      "source_file": "src/service/GroupService.java",
+      "source_location": "L18",
+      "id": "service_groupservice_groupservice_creategroup",
+      "community": 2,
+      "norm_label": ".creategroup()"
+    },
+    {
+      "label": "String",
+      "file_type": "code",
+      "source_file": "src/service/GroupService.java",
+      "source_location": "L18",
+      "id": "src_service_groupservice_java_string",
+      "community": 2,
+      "norm_label": "string"
+    },
+    {
+      "label": "Set",
+      "file_type": "code",
+      "source_file": "src/service/GroupService.java",
+      "source_location": "L18",
+      "id": "src_service_groupservice_java_set",
+      "community": 2,
+      "norm_label": "set"
+    },
+    {
+      "label": "Integer",
+      "file_type": "code",
+      "source_file": "src/service/GroupService.java",
+      "source_location": "L18",
+      "id": "src_service_groupservice_java_integer",
+      "community": 2,
+      "norm_label": "integer"
+    },
+    {
+      "label": "Group",
+      "file_type": "code",
+      "source_file": "src/service/GroupService.java",
+      "source_location": "L18",
+      "id": "src_service_groupservice_java_group",
+      "community": 2,
+      "norm_label": "group"
+    },
+    {
+      "label": ".getGroupById()",
+      "file_type": "code",
+      "source_file": "src/service/GroupService.java",
+      "source_location": "L38",
+      "id": "service_groupservice_groupservice_getgroupbyid",
+      "community": 2,
+      "norm_label": ".getgroupbyid()"
+    },
+    {
+      "label": ".getAllGroups()",
+      "file_type": "code",
+      "source_file": "src/service/GroupService.java",
+      "source_location": "L46",
+      "id": "service_groupservice_groupservice_getallgroups",
+      "community": 2,
+      "norm_label": ".getallgroups()"
+    },
+    {
+      "label": "List",
+      "file_type": "code",
+      "source_file": "src/service/GroupService.java",
+      "source_location": "L46",
+      "id": "src_service_groupservice_java_list",
+      "community": 2,
+      "norm_label": "list"
+    },
+    {
+      "label": "UserService.java",
+      "file_type": "code",
+      "source_file": "src/service/UserService.java",
+      "source_location": "L1",
+      "id": "src_service_userservice_java",
+      "community": 7,
+      "norm_label": "userservice.java"
+    },
+    {
+      "label": "UserService",
+      "file_type": "code",
+      "source_file": "src/service/UserService.java",
+      "source_location": "L10",
+      "id": "service_userservice_userservice",
+      "community": 7,
+      "norm_label": "userservice"
+    },
+    {
+      "label": ".createUser()",
+      "file_type": "code",
+      "source_file": "src/service/UserService.java",
+      "source_location": "L14",
+      "id": "service_userservice_userservice_createuser",
+      "community": 7,
+      "norm_label": ".createuser()"
+    },
+    {
+      "label": "String",
+      "file_type": "code",
+      "source_file": "src/service/UserService.java",
+      "source_location": "L14",
+      "id": "src_service_userservice_java_string",
+      "community": 7,
+      "norm_label": "string"
+    },
+    {
+      "label": "User",
+      "file_type": "code",
+      "source_file": "src/service/UserService.java",
+      "source_location": "L14",
+      "id": "src_service_userservice_java_user",
+      "community": 7,
+      "norm_label": "user"
+    },
+    {
+      "label": ".getUserById()",
+      "file_type": "code",
+      "source_file": "src/service/UserService.java",
+      "source_location": "L24",
+      "id": "service_userservice_userservice_getuserbyid",
+      "community": 7,
+      "norm_label": ".getuserbyid()"
+    },
+    {
+      "label": ".getAllUsers()",
+      "file_type": "code",
+      "source_file": "src/service/UserService.java",
+      "source_location": "L32",
+      "id": "service_userservice_userservice_getallusers",
+      "community": 7,
+      "norm_label": ".getallusers()"
+    },
+    {
+      "label": "List",
+      "file_type": "code",
+      "source_file": "src/service/UserService.java",
+      "source_location": "L32",
+      "id": "src_service_userservice_java_list",
+      "community": 7,
+      "norm_label": "list"
+    }
+  ],
+  "links": [
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/Main.java",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "src_main_java",
+      "target": "src_main_main",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/Main.java",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "src_main_main",
+      "target": "src_main_main_main",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/Main.java",
+      "source_location": "L25",
+      "weight": 1.0,
+      "source": "src_main_main_main",
+      "target": "controller_splitwisecontroller_splitwisecontroller_getgroupbalances"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/Main.java",
+      "source_location": "L10",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "src_main_main_main",
+      "target": "src_main_java_string",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/controller/SplitWiseController.java",
+      "source_location": "L18",
+      "weight": 1.0,
+      "source": "src_controller_splitwisecontroller_java",
+      "target": "controller_splitwisecontroller_splitwisecontroller",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/controller/SplitWiseController.java",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "src_controller_splitwisecontroller_java",
+      "target": "src_controller_splitwisecontroller_java_balance",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/controller/SplitWiseController.java",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "src_controller_splitwisecontroller_java",
+      "target": "src_controller_splitwisecontroller_java_expense",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/controller/SplitWiseController.java",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "src_controller_splitwisecontroller_java",
+      "target": "src_controller_splitwisecontroller_java_group",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/controller/SplitWiseController.java",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "src_controller_splitwisecontroller_java",
+      "target": "src_controller_splitwisecontroller_java_list",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/controller/SplitWiseController.java",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "src_controller_splitwisecontroller_java",
+      "target": "src_controller_splitwisecontroller_java_set",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/controller/SplitWiseController.java",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "src_controller_splitwisecontroller_java",
+      "target": "src_controller_splitwisecontroller_java_user",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/controller/SplitWiseController.java",
+      "source_location": "L60",
+      "weight": 1.0,
+      "source": "controller_splitwisecontroller_splitwisecontroller",
+      "target": "controller_splitwisecontroller_splitwisecontroller_addequalexpense",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/controller/SplitWiseController.java",
+      "source_location": "L48",
+      "weight": 1.0,
+      "source": "controller_splitwisecontroller_splitwisecontroller",
+      "target": "controller_splitwisecontroller_splitwisecontroller_creategroup",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/controller/SplitWiseController.java",
+      "source_location": "L36",
+      "weight": 1.0,
+      "source": "controller_splitwisecontroller_splitwisecontroller",
+      "target": "controller_splitwisecontroller_splitwisecontroller_createuser",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/controller/SplitWiseController.java",
+      "source_location": "L70",
+      "weight": 1.0,
+      "source": "controller_splitwisecontroller_splitwisecontroller",
+      "target": "controller_splitwisecontroller_splitwisecontroller_getgroupbalances",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/controller/SplitWiseController.java",
+      "source_location": "L52",
+      "weight": 1.0,
+      "source": "controller_splitwisecontroller_splitwisecontroller",
+      "target": "controller_splitwisecontroller_splitwisecontroller_getgroupbyid",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/controller/SplitWiseController.java",
+      "source_location": "L56",
+      "weight": 1.0,
+      "source": "controller_splitwisecontroller_splitwisecontroller",
+      "target": "controller_splitwisecontroller_splitwisecontroller_getgroups",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/controller/SplitWiseController.java",
+      "source_location": "L40",
+      "weight": 1.0,
+      "source": "controller_splitwisecontroller_splitwisecontroller",
+      "target": "controller_splitwisecontroller_splitwisecontroller_getuserbyid",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/controller/SplitWiseController.java",
+      "source_location": "L44",
+      "weight": 1.0,
+      "source": "controller_splitwisecontroller_splitwisecontroller",
+      "target": "controller_splitwisecontroller_splitwisecontroller_getusers",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/controller/SplitWiseController.java",
+      "source_location": "L25",
+      "weight": 1.0,
+      "source": "controller_splitwisecontroller_splitwisecontroller",
+      "target": "controller_splitwisecontroller_splitwisecontroller_splitwisecontroller",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/controller/SplitWiseController.java",
+      "source_location": "L36",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "controller_splitwisecontroller_splitwisecontroller_createuser",
+      "target": "src_controller_splitwisecontroller_java_string",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/controller/SplitWiseController.java",
+      "source_location": "L36",
+      "weight": 1.0,
+      "context": "return_type",
+      "source": "controller_splitwisecontroller_splitwisecontroller_createuser",
+      "target": "src_controller_splitwisecontroller_java_user",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/controller/SplitWiseController.java",
+      "source_location": "L60",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "controller_splitwisecontroller_splitwisecontroller_addequalexpense",
+      "target": "src_controller_splitwisecontroller_java_string",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/controller/SplitWiseController.java",
+      "source_location": "L48",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "controller_splitwisecontroller_splitwisecontroller_creategroup",
+      "target": "src_controller_splitwisecontroller_java_string",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/controller/SplitWiseController.java",
+      "source_location": "L40",
+      "weight": 1.0,
+      "context": "return_type",
+      "source": "controller_splitwisecontroller_splitwisecontroller_getuserbyid",
+      "target": "src_controller_splitwisecontroller_java_user",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/controller/SplitWiseController.java",
+      "source_location": "L44",
+      "weight": 1.0,
+      "context": "generic_arg",
+      "source": "controller_splitwisecontroller_splitwisecontroller_getusers",
+      "target": "src_controller_splitwisecontroller_java_user",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/controller/SplitWiseController.java",
+      "source_location": "L45",
+      "weight": 1.0,
+      "source": "controller_splitwisecontroller_splitwisecontroller_getusers",
+      "target": "service_userservice_userservice_getallusers"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/controller/SplitWiseController.java",
+      "source_location": "L44",
+      "weight": 1.0,
+      "context": "return_type",
+      "source": "controller_splitwisecontroller_splitwisecontroller_getusers",
+      "target": "src_controller_splitwisecontroller_java_list",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/controller/SplitWiseController.java",
+      "source_location": "L70",
+      "weight": 1.0,
+      "context": "return_type",
+      "source": "controller_splitwisecontroller_splitwisecontroller_getgroupbalances",
+      "target": "src_controller_splitwisecontroller_java_list",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/controller/SplitWiseController.java",
+      "source_location": "L56",
+      "weight": 1.0,
+      "context": "return_type",
+      "source": "controller_splitwisecontroller_splitwisecontroller_getgroups",
+      "target": "src_controller_splitwisecontroller_java_list",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/controller/SplitWiseController.java",
+      "source_location": "L48",
+      "weight": 1.0,
+      "context": "return_type",
+      "source": "controller_splitwisecontroller_splitwisecontroller_creategroup",
+      "target": "src_controller_splitwisecontroller_java_group",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/controller/SplitWiseController.java",
+      "source_location": "L48",
+      "weight": 1.0,
+      "context": "generic_arg",
+      "source": "controller_splitwisecontroller_splitwisecontroller_creategroup",
+      "target": "src_controller_splitwisecontroller_java_integer",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/controller/SplitWiseController.java",
+      "source_location": "L48",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "controller_splitwisecontroller_splitwisecontroller_creategroup",
+      "target": "src_controller_splitwisecontroller_java_set",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/controller/SplitWiseController.java",
+      "source_location": "L60",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "controller_splitwisecontroller_splitwisecontroller_addequalexpense",
+      "target": "src_controller_splitwisecontroller_java_set",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/controller/SplitWiseController.java",
+      "source_location": "L60",
+      "weight": 1.0,
+      "context": "generic_arg",
+      "source": "controller_splitwisecontroller_splitwisecontroller_addequalexpense",
+      "target": "src_controller_splitwisecontroller_java_integer",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/controller/SplitWiseController.java",
+      "source_location": "L52",
+      "weight": 1.0,
+      "context": "return_type",
+      "source": "controller_splitwisecontroller_splitwisecontroller_getgroupbyid",
+      "target": "src_controller_splitwisecontroller_java_group",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/controller/SplitWiseController.java",
+      "source_location": "L56",
+      "weight": 1.0,
+      "context": "generic_arg",
+      "source": "controller_splitwisecontroller_splitwisecontroller_getgroups",
+      "target": "src_controller_splitwisecontroller_java_group",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/controller/SplitWiseController.java",
+      "source_location": "L57",
+      "weight": 1.0,
+      "source": "controller_splitwisecontroller_splitwisecontroller_getgroups",
+      "target": "service_groupservice_groupservice_getallgroups"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/controller/SplitWiseController.java",
+      "source_location": "L60",
+      "weight": 1.0,
+      "context": "return_type",
+      "source": "controller_splitwisecontroller_splitwisecontroller_addequalexpense",
+      "target": "src_controller_splitwisecontroller_java_expense",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/controller/SplitWiseController.java",
+      "source_location": "L71",
+      "weight": 1.0,
+      "source": "controller_splitwisecontroller_splitwisecontroller_getgroupbalances",
+      "target": "service_balanceservice_balanceservice_calculatebalances"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/controller/SplitWiseController.java",
+      "source_location": "L70",
+      "weight": 1.0,
+      "context": "generic_arg",
+      "source": "controller_splitwisecontroller_splitwisecontroller_getgroupbalances",
+      "target": "src_controller_splitwisecontroller_java_balance",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/model/Balance.java",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "src_model_balance_java",
+      "target": "model_balance_balance",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/model/Expense.java",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "src_model_expense_java",
+      "target": "model_expense_expense",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/model/Group.java",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "src_model_group_java",
+      "target": "model_group_group",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/model/Group.java",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "src_model_group_java",
+      "target": "src_model_group_java_set",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/model/Group.java",
+      "source_location": "L28",
+      "weight": 1.0,
+      "source": "model_group_group",
+      "target": "model_group_group_addexpenseid",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/model/Group.java",
+      "source_location": "L21",
+      "weight": 1.0,
+      "source": "model_group_group",
+      "target": "model_group_group_group",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/model/Group.java",
+      "source_location": "L21",
+      "weight": 1.0,
+      "context": "generic_arg",
+      "source": "model_group_group_group",
+      "target": "src_model_group_java_integer",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/model/Group.java",
+      "source_location": "L21",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "model_group_group_group",
+      "target": "src_model_group_java_set",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/model/Group.java",
+      "source_location": "L21",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "model_group_group_group",
+      "target": "src_model_group_java_string",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/service/ExpenseService.java",
+      "source_location": "L58",
+      "weight": 1.0,
+      "source": "service_expenseservice_expenseservice_addequalexpense",
+      "target": "model_group_group_addexpenseid"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/model/User.java",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "src_model_user_java",
+      "target": "model_user_user",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/repository/ExpenseRepository.java",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "src_repository_expenserepository_java",
+      "target": "repository_expenserepository_expenserepository",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/repository/ExpenseRepository.java",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "src_repository_expenserepository_java",
+      "target": "src_repository_expenserepository_java_expense",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/repository/ExpenseRepository.java",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "src_repository_expenserepository_java",
+      "target": "src_repository_expenserepository_java_list",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/repository/ExpenseRepository.java",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "repository_expenserepository_expenserepository",
+      "target": "repository_expenserepository_expenserepository_expenserepository",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/repository/ExpenseRepository.java",
+      "source_location": "L31",
+      "weight": 1.0,
+      "source": "repository_expenserepository_expenserepository",
+      "target": "repository_expenserepository_expenserepository_findbygroupid",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/repository/ExpenseRepository.java",
+      "source_location": "L27",
+      "weight": 1.0,
+      "source": "repository_expenserepository_expenserepository",
+      "target": "repository_expenserepository_expenserepository_findbyid",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/repository/ExpenseRepository.java",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "repository_expenserepository_expenserepository",
+      "target": "repository_expenserepository_expenserepository_getnextid",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/repository/ExpenseRepository.java",
+      "source_location": "L23",
+      "weight": 1.0,
+      "source": "repository_expenserepository_expenserepository",
+      "target": "repository_expenserepository_expenserepository_save",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/repository/ExpenseRepository.java",
+      "source_location": "L23",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "repository_expenserepository_expenserepository_save",
+      "target": "src_repository_expenserepository_java_expense",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/repository/ExpenseRepository.java",
+      "source_location": "L31",
+      "weight": 1.0,
+      "context": "generic_arg",
+      "source": "repository_expenserepository_expenserepository_findbygroupid",
+      "target": "src_repository_expenserepository_java_expense",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/repository/ExpenseRepository.java",
+      "source_location": "L27",
+      "weight": 1.0,
+      "context": "return_type",
+      "source": "repository_expenserepository_expenserepository_findbyid",
+      "target": "src_repository_expenserepository_java_expense",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/repository/ExpenseRepository.java",
+      "source_location": "L31",
+      "weight": 1.0,
+      "context": "return_type",
+      "source": "repository_expenserepository_expenserepository_findbygroupid",
+      "target": "src_repository_expenserepository_java_list",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/service/BalanceService.java",
+      "source_location": "L26",
+      "weight": 1.0,
+      "source": "service_balanceservice_balanceservice_calculatebalances",
+      "target": "repository_expenserepository_expenserepository_findbygroupid"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/repository/GroupRepository.java",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "src_repository_grouprepository_java",
+      "target": "repository_grouprepository_grouprepository",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/repository/GroupRepository.java",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "src_repository_grouprepository_java",
+      "target": "src_repository_grouprepository_java_group",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/repository/GroupRepository.java",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "src_repository_grouprepository_java",
+      "target": "src_repository_grouprepository_java_list",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/repository/GroupRepository.java",
+      "source_location": "L31",
+      "weight": 1.0,
+      "source": "repository_grouprepository_grouprepository",
+      "target": "repository_grouprepository_grouprepository_existsbyid",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/repository/GroupRepository.java",
+      "source_location": "L35",
+      "weight": 1.0,
+      "source": "repository_grouprepository_grouprepository",
+      "target": "repository_grouprepository_grouprepository_findall",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/repository/GroupRepository.java",
+      "source_location": "L27",
+      "weight": 1.0,
+      "source": "repository_grouprepository_grouprepository",
+      "target": "repository_grouprepository_grouprepository_findbyid",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/repository/GroupRepository.java",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "repository_grouprepository_grouprepository",
+      "target": "repository_grouprepository_grouprepository_getnextid",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/repository/GroupRepository.java",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "repository_grouprepository_grouprepository",
+      "target": "repository_grouprepository_grouprepository_grouprepository",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/repository/GroupRepository.java",
+      "source_location": "L23",
+      "weight": 1.0,
+      "source": "repository_grouprepository_grouprepository",
+      "target": "repository_grouprepository_grouprepository_save",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/repository/GroupRepository.java",
+      "source_location": "L23",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "repository_grouprepository_grouprepository_save",
+      "target": "src_repository_grouprepository_java_group",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/repository/GroupRepository.java",
+      "source_location": "L35",
+      "weight": 1.0,
+      "context": "generic_arg",
+      "source": "repository_grouprepository_grouprepository_findall",
+      "target": "src_repository_grouprepository_java_group",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/repository/GroupRepository.java",
+      "source_location": "L27",
+      "weight": 1.0,
+      "context": "return_type",
+      "source": "repository_grouprepository_grouprepository_findbyid",
+      "target": "src_repository_grouprepository_java_group",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/repository/GroupRepository.java",
+      "source_location": "L35",
+      "weight": 1.0,
+      "context": "return_type",
+      "source": "repository_grouprepository_grouprepository_findall",
+      "target": "src_repository_grouprepository_java_list",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/repository/UserRepository.java",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "src_repository_userrepository_java",
+      "target": "repository_userrepository_userrepository",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/repository/UserRepository.java",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "src_repository_userrepository_java",
+      "target": "src_repository_userrepository_java_list",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/repository/UserRepository.java",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "src_repository_userrepository_java",
+      "target": "src_repository_userrepository_java_user",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/repository/UserRepository.java",
+      "source_location": "L31",
+      "weight": 1.0,
+      "source": "repository_userrepository_userrepository",
+      "target": "repository_userrepository_userrepository_existsbyid",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/repository/UserRepository.java",
+      "source_location": "L35",
+      "weight": 1.0,
+      "source": "repository_userrepository_userrepository",
+      "target": "repository_userrepository_userrepository_findall",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/repository/UserRepository.java",
+      "source_location": "L27",
+      "weight": 1.0,
+      "source": "repository_userrepository_userrepository",
+      "target": "repository_userrepository_userrepository_findbyid",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/repository/UserRepository.java",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "repository_userrepository_userrepository",
+      "target": "repository_userrepository_userrepository_getnextid",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/repository/UserRepository.java",
+      "source_location": "L23",
+      "weight": 1.0,
+      "source": "repository_userrepository_userrepository",
+      "target": "repository_userrepository_userrepository_save",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/repository/UserRepository.java",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "repository_userrepository_userrepository",
+      "target": "repository_userrepository_userrepository_userrepository",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/repository/UserRepository.java",
+      "source_location": "L23",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "repository_userrepository_userrepository_save",
+      "target": "src_repository_userrepository_java_user",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/repository/UserRepository.java",
+      "source_location": "L35",
+      "weight": 1.0,
+      "context": "generic_arg",
+      "source": "repository_userrepository_userrepository_findall",
+      "target": "src_repository_userrepository_java_user",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/repository/UserRepository.java",
+      "source_location": "L27",
+      "weight": 1.0,
+      "context": "return_type",
+      "source": "repository_userrepository_userrepository_findbyid",
+      "target": "src_repository_userrepository_java_user",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/repository/UserRepository.java",
+      "source_location": "L35",
+      "weight": 1.0,
+      "context": "return_type",
+      "source": "repository_userrepository_userrepository_findall",
+      "target": "src_repository_userrepository_java_list",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/service/BalanceService.java",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "src_service_balanceservice_java",
+      "target": "service_balanceservice_balanceservice",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/service/BalanceService.java",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "src_service_balanceservice_java",
+      "target": "src_service_balanceservice_java_balance",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/service/BalanceService.java",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "src_service_balanceservice_java",
+      "target": "src_service_balanceservice_java_list",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/service/BalanceService.java",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "src_service_balanceservice_java",
+      "target": "src_service_balanceservice_java_map",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/service/BalanceService.java",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "service_balanceservice_balanceservice",
+      "target": "service_balanceservice_balanceservice_calculatebalances",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/service/BalanceService.java",
+      "source_location": "L44",
+      "weight": 1.0,
+      "source": "service_balanceservice_balanceservice",
+      "target": "service_balanceservice_balanceservice_simplifybalances",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/service/BalanceService.java",
+      "source_location": "L41",
+      "weight": 1.0,
+      "source": "service_balanceservice_balanceservice_calculatebalances",
+      "target": "service_balanceservice_balanceservice_simplifybalances",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/service/BalanceService.java",
+      "source_location": "L20",
+      "weight": 1.0,
+      "context": "generic_arg",
+      "source": "service_balanceservice_balanceservice_calculatebalances",
+      "target": "src_service_balanceservice_java_balance",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/service/BalanceService.java",
+      "source_location": "L20",
+      "weight": 1.0,
+      "context": "return_type",
+      "source": "service_balanceservice_balanceservice_calculatebalances",
+      "target": "src_service_balanceservice_java_list",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/service/BalanceService.java",
+      "source_location": "L44",
+      "weight": 1.0,
+      "context": "return_type",
+      "source": "service_balanceservice_balanceservice_simplifybalances",
+      "target": "src_service_balanceservice_java_list",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/service/BalanceService.java",
+      "source_location": "L44",
+      "weight": 1.0,
+      "context": "generic_arg",
+      "source": "service_balanceservice_balanceservice_simplifybalances",
+      "target": "src_service_balanceservice_java_balance",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/service/BalanceService.java",
+      "source_location": "L44",
+      "weight": 1.0,
+      "context": "generic_arg",
+      "source": "service_balanceservice_balanceservice_simplifybalances",
+      "target": "src_service_balanceservice_java_integer",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/service/BalanceService.java",
+      "source_location": "L44",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "service_balanceservice_balanceservice_simplifybalances",
+      "target": "src_service_balanceservice_java_map",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/service/ExpenseService.java",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "src_service_expenseservice_java",
+      "target": "service_expenseservice_expenseservice",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/service/ExpenseService.java",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "src_service_expenseservice_java",
+      "target": "src_service_expenseservice_java_expense",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/service/ExpenseService.java",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "src_service_expenseservice_java",
+      "target": "src_service_expenseservice_java_map",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/service/ExpenseService.java",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "src_service_expenseservice_java",
+      "target": "src_service_expenseservice_java_set",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/service/ExpenseService.java",
+      "source_location": "L22",
+      "weight": 1.0,
+      "source": "service_expenseservice_expenseservice",
+      "target": "service_expenseservice_expenseservice_addequalexpense",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/service/ExpenseService.java",
+      "source_location": "L63",
+      "weight": 1.0,
+      "source": "service_expenseservice_expenseservice",
+      "target": "service_expenseservice_expenseservice_calculateequalsplit",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/service/ExpenseService.java",
+      "source_location": "L47",
+      "weight": 1.0,
+      "source": "service_expenseservice_expenseservice_addequalexpense",
+      "target": "service_expenseservice_expenseservice_calculateequalsplit",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/service/ExpenseService.java",
+      "source_location": "L22",
+      "weight": 1.0,
+      "context": "return_type",
+      "source": "service_expenseservice_expenseservice_addequalexpense",
+      "target": "src_service_expenseservice_java_expense",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/service/ExpenseService.java",
+      "source_location": "L22",
+      "weight": 1.0,
+      "context": "generic_arg",
+      "source": "service_expenseservice_expenseservice_addequalexpense",
+      "target": "src_service_expenseservice_java_integer",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/service/ExpenseService.java",
+      "source_location": "L22",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "service_expenseservice_expenseservice_addequalexpense",
+      "target": "src_service_expenseservice_java_set",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/service/ExpenseService.java",
+      "source_location": "L22",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "service_expenseservice_expenseservice_addequalexpense",
+      "target": "src_service_expenseservice_java_string",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/service/ExpenseService.java",
+      "source_location": "L63",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "service_expenseservice_expenseservice_calculateequalsplit",
+      "target": "src_service_expenseservice_java_set",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/service/ExpenseService.java",
+      "source_location": "L63",
+      "weight": 1.0,
+      "context": "generic_arg",
+      "source": "service_expenseservice_expenseservice_calculateequalsplit",
+      "target": "src_service_expenseservice_java_integer",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/service/ExpenseService.java",
+      "source_location": "L63",
+      "weight": 1.0,
+      "context": "return_type",
+      "source": "service_expenseservice_expenseservice_calculateequalsplit",
+      "target": "src_service_expenseservice_java_map",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/service/GroupService.java",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "src_service_groupservice_java",
+      "target": "service_groupservice_groupservice",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/service/GroupService.java",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "src_service_groupservice_java",
+      "target": "src_service_groupservice_java_group",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/service/GroupService.java",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "src_service_groupservice_java",
+      "target": "src_service_groupservice_java_list",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/service/GroupService.java",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "src_service_groupservice_java",
+      "target": "src_service_groupservice_java_set",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/service/GroupService.java",
+      "source_location": "L18",
+      "weight": 1.0,
+      "source": "service_groupservice_groupservice",
+      "target": "service_groupservice_groupservice_creategroup",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/service/GroupService.java",
+      "source_location": "L46",
+      "weight": 1.0,
+      "source": "service_groupservice_groupservice",
+      "target": "service_groupservice_groupservice_getallgroups",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/service/GroupService.java",
+      "source_location": "L38",
+      "weight": 1.0,
+      "source": "service_groupservice_groupservice",
+      "target": "service_groupservice_groupservice_getgroupbyid",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/service/GroupService.java",
+      "source_location": "L18",
+      "weight": 1.0,
+      "context": "return_type",
+      "source": "service_groupservice_groupservice_creategroup",
+      "target": "src_service_groupservice_java_group",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/service/GroupService.java",
+      "source_location": "L18",
+      "weight": 1.0,
+      "context": "generic_arg",
+      "source": "service_groupservice_groupservice_creategroup",
+      "target": "src_service_groupservice_java_integer",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/service/GroupService.java",
+      "source_location": "L18",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "service_groupservice_groupservice_creategroup",
+      "target": "src_service_groupservice_java_set",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/service/GroupService.java",
+      "source_location": "L18",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "service_groupservice_groupservice_creategroup",
+      "target": "src_service_groupservice_java_string",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/service/GroupService.java",
+      "source_location": "L46",
+      "weight": 1.0,
+      "context": "generic_arg",
+      "source": "service_groupservice_groupservice_getallgroups",
+      "target": "src_service_groupservice_java_group",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/service/GroupService.java",
+      "source_location": "L38",
+      "weight": 1.0,
+      "context": "return_type",
+      "source": "service_groupservice_groupservice_getgroupbyid",
+      "target": "src_service_groupservice_java_group",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/service/GroupService.java",
+      "source_location": "L46",
+      "weight": 1.0,
+      "context": "return_type",
+      "source": "service_groupservice_groupservice_getallgroups",
+      "target": "src_service_groupservice_java_list",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/service/UserService.java",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "src_service_userservice_java",
+      "target": "service_userservice_userservice",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/service/UserService.java",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "src_service_userservice_java",
+      "target": "src_service_userservice_java_list",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/service/UserService.java",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "src_service_userservice_java",
+      "target": "src_service_userservice_java_user",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/service/UserService.java",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "service_userservice_userservice",
+      "target": "service_userservice_userservice_createuser",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/service/UserService.java",
+      "source_location": "L32",
+      "weight": 1.0,
+      "source": "service_userservice_userservice",
+      "target": "service_userservice_userservice_getallusers",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/service/UserService.java",
+      "source_location": "L24",
+      "weight": 1.0,
+      "source": "service_userservice_userservice",
+      "target": "service_userservice_userservice_getuserbyid",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/service/UserService.java",
+      "source_location": "L14",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "service_userservice_userservice_createuser",
+      "target": "src_service_userservice_java_string",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/service/UserService.java",
+      "source_location": "L14",
+      "weight": 1.0,
+      "context": "return_type",
+      "source": "service_userservice_userservice_createuser",
+      "target": "src_service_userservice_java_user",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/service/UserService.java",
+      "source_location": "L32",
+      "weight": 1.0,
+      "context": "generic_arg",
+      "source": "service_userservice_userservice_getallusers",
+      "target": "src_service_userservice_java_user",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/service/UserService.java",
+      "source_location": "L24",
+      "weight": 1.0,
+      "context": "return_type",
+      "source": "service_userservice_userservice_getuserbyid",
+      "target": "src_service_userservice_java_user",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/service/UserService.java",
+      "source_location": "L32",
+      "weight": 1.0,
+      "context": "return_type",
+      "source": "service_userservice_userservice_getallusers",
+      "target": "src_service_userservice_java_list",
+      "confidence_score": 1.0
+    }
+  ],
+  "hyperedges": [],
+  "built_at_commit": "fa3ee582b1228eecfdb70f92eb13270d7c4413ab"
+}

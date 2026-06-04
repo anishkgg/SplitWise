@@ -1,12 +1,11 @@
 package controller;
 
+import lombok.RequiredArgsConstructor;
 import model.Balance;
 import model.Expense;
 import model.Group;
 import model.User;
-import repository.ExpenseRepository;
-import repository.GroupRepository;
-import repository.UserRepository;
+import org.springframework.web.bind.annotation.*;
 import service.BalanceService;
 import service.ExpenseService;
 import service.GroupService;
@@ -15,6 +14,9 @@ import service.UserService;
 import java.util.List;
 import java.util.Set;
 
+@RestController
+@RequestMapping("/api")
+@RequiredArgsConstructor
 public class SplitWiseController {
 
     private final UserService userService;
@@ -22,52 +24,49 @@ public class SplitWiseController {
     private final ExpenseService expenseService;
     private final BalanceService balanceService;
 
-    public SplitWiseController() {
-        UserRepository userRepository = new UserRepository();
-        GroupRepository groupRepository = new GroupRepository();
-        ExpenseRepository expenseRepository = new ExpenseRepository();
-
-        this.userService = new UserService(userRepository);
-        this.groupService = new GroupService(groupRepository, userRepository);
-        this.expenseService = new ExpenseService(expenseRepository, groupRepository, userRepository);
-        this.balanceService = new BalanceService(expenseRepository, groupRepository);
-    }
-
-    public User createUser(String name) {
+    @PostMapping("/users")
+    public User createUser(@RequestParam String name) {
         return userService.createUser(name);
     }
 
-    public User getUserById(int userId) {
+    @GetMapping("/users/{userId}")
+    public User getUserById(@PathVariable int userId) {
         return userService.getUserById(userId);
     }
 
+    @GetMapping("/users")
     public List<User> getUsers() {
         return userService.getAllUsers();
     }
 
-    public Group createGroup(String name, Set<Integer> memberIds) {
+    @PostMapping("/groups")
+    public Group createGroup(@RequestParam String name, @RequestBody Set<Integer> memberIds) {
         return groupService.createGroup(name, memberIds);
     }
 
-    public Group getGroupById(int groupId) {
+    @GetMapping("/groups/{groupId}")
+    public Group getGroupById(@PathVariable int groupId) {
         return groupService.getGroupById(groupId);
     }
 
+    @GetMapping("/groups")
     public List<Group> getGroups() {
         return groupService.getAllGroups();
     }
 
+    @PostMapping("/expenses")
     public Expense addEqualExpense(
-            int groupId,
-            int paidByUserId,
-            int amount,
-            String description,
-            Set<Integer> participantIds
+            @RequestParam int groupId,
+            @RequestParam int paidByUserId,
+            @RequestParam int amount,
+            @RequestParam String description,
+            @RequestBody Set<Integer> participantIds
     ) {
         return expenseService.addEqualExpense(groupId, paidByUserId, amount, description, participantIds);
     }
 
-    public List<Balance> getGroupBalances(int groupId) {
+    @GetMapping("/groups/{groupId}/balances")
+    public List<Balance> getGroupBalances(@PathVariable int groupId) {
         return balanceService.calculateBalances(groupId);
     }
 }

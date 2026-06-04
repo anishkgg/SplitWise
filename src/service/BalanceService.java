@@ -5,6 +5,7 @@ import model.Expense;
 import repository.ExpenseRepository;
 import repository.GroupRepository;
 
+import org.springframework.stereotype.Service;
 import lombok.RequiredArgsConstructor;
 
 import java.util.ArrayList;
@@ -12,6 +13,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+@Service
 @RequiredArgsConstructor
 public class BalanceService {
     private final ExpenseRepository expenseRepository;

@@ -1,0 +1,205 @@
+{
+  "communities": {
+    "0": [
+      "controller_splitwisecontroller_splitwisecontroller",
+      "controller_splitwisecontroller_splitwisecontroller_addequalexpense",
+      "controller_splitwisecontroller_splitwisecontroller_creategroup",
+      "controller_splitwisecontroller_splitwisecontroller_createuser",
+      "controller_splitwisecontroller_splitwisecontroller_getgroupbalances",
+      "controller_splitwisecontroller_splitwisecontroller_getgroupbyid",
+      "controller_splitwisecontroller_splitwisecontroller_getgroups",
+      "controller_splitwisecontroller_splitwisecontroller_getuserbyid",
+      "controller_splitwisecontroller_splitwisecontroller_getusers",
+      "controller_splitwisecontroller_splitwisecontroller_splitwisecontroller",
+      "src_controller_splitwisecontroller_java",
+      "src_controller_splitwisecontroller_java_balance",
+      "src_controller_splitwisecontroller_java_expense",
+      "src_controller_splitwisecontroller_java_group",
+      "src_controller_splitwisecontroller_java_integer",
+      "src_controller_splitwisecontroller_java_list",
+      "src_controller_splitwisecontroller_java_set",
+      "src_controller_splitwisecontroller_java_string",
+      "src_controller_splitwisecontroller_java_user"
+    ],
+    "1": [
+      "repository_userrepository_userrepository",
+      "repository_userrepository_userrepository_existsbyid",
+      "repository_userrepository_userrepository_findall",
+      "repository_userrepository_userrepository_findbyid",
+      "repository_userrepository_userrepository_getnextid",
+      "repository_userrepository_userrepository_save",
+      "repository_userrepository_userrepository_userrepository",
+      "src_repository_userrepository_java",
+      "src_repository_userrepository_java_list",
+      "src_repository_userrepository_java_user"
+    ],
+    "2": [
+      "service_groupservice_groupservice",
+      "service_groupservice_groupservice_creategroup",
+      "service_groupservice_groupservice_getallgroups",
+      "service_groupservice_groupservice_getgroupbyid",
+      "src_service_groupservice_java",
+      "src_service_groupservice_java_group",
+      "src_service_groupservice_java_integer",
+      "src_service_groupservice_java_list",
+      "src_service_groupservice_java_set",
+      "src_service_groupservice_java_string"
+    ],
+    "3": [
+      "repository_grouprepository_grouprepository",
+      "repository_grouprepository_grouprepository_existsbyid",
+      "repository_grouprepository_grouprepository_findall",
+      "repository_grouprepository_grouprepository_findbyid",
+      "repository_grouprepository_grouprepository_getnextid",
+      "repository_grouprepository_grouprepository_grouprepository",
+      "repository_grouprepository_grouprepository_save",
+      "src_repository_grouprepository_java",
+      "src_repository_grouprepository_java_group",
+      "src_repository_grouprepository_java_list"
+    ],
+    "4": [
+      "repository_expenserepository_expenserepository",
+      "repository_expenserepository_expenserepository_expenserepository",
+      "repository_expenserepository_expenserepository_findbygroupid",
+      "repository_expenserepository_expenserepository_findbyid",
+      "repository_expenserepository_expenserepository_getnextid",
+      "repository_expenserepository_expenserepository_save",
+      "src_repository_expenserepository_java",
+      "src_repository_expenserepository_java_expense",
+      "src_repository_expenserepository_java_list"
+    ],
+    "5": [
+      "service_expenseservice_expenseservice",
+      "service_expenseservice_expenseservice_addequalexpense",
+      "service_expenseservice_expenseservice_calculateequalsplit",
+      "src_service_expenseservice_java",
+      "src_service_expenseservice_java_expense",
+      "src_service_expenseservice_java_integer",
+      "src_service_expenseservice_java_map",
+      "src_service_expenseservice_java_set",
+      "src_service_expenseservice_java_string"
+    ],
+    "6": [
+      "service_balanceservice_balanceservice",
+      "service_balanceservice_balanceservice_calculatebalances",
+      "service_balanceservice_balanceservice_simplifybalances",
+      "src_service_balanceservice_java",
+      "src_service_balanceservice_java_balance",
+      "src_service_balanceservice_java_integer",
+      "src_service_balanceservice_java_list",
+      "src_service_balanceservice_java_map"
+    ],
+    "7": [
+      "service_userservice_userservice",
+      "service_userservice_userservice_createuser",
+      "service_userservice_userservice_getallusers",
+      "service_userservice_userservice_getuserbyid",
+      "src_service_userservice_java",
+      "src_service_userservice_java_list",
+      "src_service_userservice_java_string",
+      "src_service_userservice_java_user"
+    ],
+    "8": [
+      "model_group_group",
+      "model_group_group_addexpenseid",
+      "model_group_group_group",
+      "src_model_group_java",
+      "src_model_group_java_integer",
+      "src_model_group_java_set",
+      "src_model_group_java_string"
+    ],
+    "9": [
+      "src_main_java",
+      "src_main_java_string",
+      "src_main_main",
+      "src_main_main_main"
+    ],
+    "10": [
+      "model_expense_expense",
+      "src_model_expense_java"
+    ],
+    "11": [
+      "model_balance_balance",
+      "src_model_balance_java"
+    ],
+    "12": [
+      "model_user_user",
+      "src_model_user_java"
+    ]
+  },
+  "cohesion": {
+    "0": 0.19883040935672514,
+    "1": 0.28888888888888886,
+    "2": 0.3111111111111111,
+    "3": 0.28888888888888886,
+    "4": 0.3333333333333333,
+    "5": 0.3888888888888889,
+    "6": 0.4642857142857143,
+    "7": 0.39285714285714285,
+    "8": 0.3333333333333333,
+    "9": 0.5,
+    "10": 1.0,
+    "11": 1.0,
+    "12": 1.0
+  },
+  "gods": [
+    {
+      "id": "controller_splitwisecontroller_splitwisecontroller",
+      "label": "SplitWiseController",
+      "degree": 10
+    },
+    {
+      "id": "repository_grouprepository_grouprepository",
+      "label": "GroupRepository",
+      "degree": 7
+    },
+    {
+      "id": "repository_userrepository_userrepository",
+      "label": "UserRepository",
+      "degree": 7
+    },
+    {
+      "id": "repository_expenserepository_expenserepository",
+      "label": "ExpenseRepository",
+      "degree": 6
+    },
+    {
+      "id": "src_controller_splitwisecontroller_java_user",
+      "label": "User",
+      "degree": 4
+    },
+    {
+      "id": "src_controller_splitwisecontroller_java_list",
+      "label": "List",
+      "degree": 4
+    },
+    {
+      "id": "src_controller_splitwisecontroller_java_group",
+      "label": "Group",
+      "degree": 4
+    },
+    {
+      "id": "src_repository_expenserepository_java_expense",
+      "label": "Expense",
+      "degree": 4
+    },
+    {
+      "id": "src_repository_grouprepository_java_group",
+      "label": "Group",
+      "degree": 4
+    },
+    {
+      "id": "src_repository_userrepository_java_user",
+      "label": "User",
+      "degree": 4
+    }
+  ],
+  "surprises": [],
+  "questions": [
+    {
+      "type": "isolated_nodes",
+      "question": "What connects `String`, `Balance`, `Expense` to the rest of the system?",
+      "why": "11 weakly-connected nodes found - possible documentation gaps or missing edges."
+    }
+  ]
+}

@@ -4,12 +4,14 @@ import model.Group;
 import repository.GroupRepository;
 import repository.UserRepository;
 
+import org.springframework.stereotype.Service;
 import lombok.RequiredArgsConstructor;
 
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
+@Service
 @RequiredArgsConstructor
 public class GroupService {
     private final GroupRepository groupRepository;

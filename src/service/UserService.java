@@ -3,10 +3,12 @@ package service;
 import model.User;
 import repository.UserRepository;
 
+import org.springframework.stereotype.Service;
 import lombok.RequiredArgsConstructor;
 
 import java.util.List;
 
+@Service
 @RequiredArgsConstructor
 public class UserService {
     private final UserRepository userRepository;
