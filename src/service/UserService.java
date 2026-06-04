@@ -3,14 +3,13 @@ package service;
 import model.User;
 import repository.UserRepository;
 
+import lombok.RequiredArgsConstructor;
+
 import java.util.List;
 
+@RequiredArgsConstructor
 public class UserService {
     private final UserRepository userRepository;
-
-    public UserService(UserRepository userRepository) {
-        this.userRepository = userRepository;
-    }
 
     public User createUser(String name) {
         if (name == null || name.trim().isEmpty()) {

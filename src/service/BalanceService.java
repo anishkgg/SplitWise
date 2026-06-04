@@ -5,21 +5,19 @@ import model.Expense;
 import repository.ExpenseRepository;
 import repository.GroupRepository;
 
+import lombok.RequiredArgsConstructor;
+
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+@RequiredArgsConstructor
 public class BalanceService {
     private final ExpenseRepository expenseRepository;
     private final GroupRepository groupRepository;
 
-    public BalanceService(ExpenseRepository expenseRepository, GroupRepository groupRepository) {
-        this.expenseRepository = expenseRepository;
-        this.groupRepository = groupRepository;
-    }
-
-    public List<Balance> calculateBalances(int groupId) {
+    public List<Balance>  calculateBalances(int groupId) {
         if (!groupRepository.existsById(groupId)) {
             throw new IllegalArgumentException("Group does not exist: " + groupId);
         }

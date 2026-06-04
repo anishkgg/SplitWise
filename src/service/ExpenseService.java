@@ -6,21 +6,18 @@ import repository.ExpenseRepository;
 import repository.GroupRepository;
 import repository.UserRepository;
 
+import lombok.RequiredArgsConstructor;
+
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Map;
 import java.util.Set;
 
+@RequiredArgsConstructor
 public class ExpenseService {
     private final ExpenseRepository expenseRepository;
     private final GroupRepository groupRepository;
     private final UserRepository userRepository;
-
-    public ExpenseService(ExpenseRepository expenseRepository, GroupRepository groupRepository, UserRepository userRepository) {
-        this.expenseRepository = expenseRepository;
-        this.groupRepository = groupRepository;
-        this.userRepository = userRepository;
-    }
 
     public Expense addEqualExpense(int groupId, int paidByUserId, int amount, String description, Set<Integer> participantIds) {
         Group group = groupRepository.findById(groupId);

@@ -4,18 +4,16 @@ import model.Group;
 import repository.GroupRepository;
 import repository.UserRepository;
 
+import lombok.RequiredArgsConstructor;
+
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
+@RequiredArgsConstructor
 public class GroupService {
     private final GroupRepository groupRepository;
     private final UserRepository userRepository;
-
-    public GroupService(GroupRepository groupRepository, UserRepository userRepository) {
-        this.groupRepository = groupRepository;
-        this.userRepository = userRepository;
-    }
 
     public Group createGroup(String name, Set<Integer> memberIds) {
         if (name == null || name.trim().isEmpty()) {
