@@ -2,6 +2,7 @@ package service;
 
 import model.Expense;
 import model.Group;
+import model.User;
 import repository.ExpenseRepository;
 import repository.GroupRepository;
 import repository.UserRepository;
@@ -22,16 +23,20 @@ public class ExpenseService {
     private final UserRepository userRepository;
 
     public Expense addEqualExpense(int groupId, int paidByUserId, int amount, String description, Set<Integer> participantIds) {
-        Group group = groupRepository.findById(groupId);
-        if (group == null) {
-            throw new IllegalArgumentException("Group does not exist: " + groupId);
-        }
-        if (!userRepository.existsById(paidByUserId)) {
-            throw new IllegalArgumentException("Payer does not exist: " + paidByUserId);
-        }
-        if (!group.getMemberIds().contains(paidByUserId)) {
+        Group group = groupRepository.findById(groupId)
+                .orElseThrow(() -> new IllegalArgumentException("Group does not exist: " + groupId));
+        
+        User payer = userRepository.findById(paidByUserId)
+                .orElseThrow(() -> new IllegalArgumentException("Payer does not exist: " + paidByUserId));
+
+        // Check if payer is part of the group
+        boolean isPayerInGroup = group.getMembers().stream()
+                .anyMatch(member -> member.getId() == paidByUserId);
+        
+        if (!isPayerInGroup) {
             throw new IllegalArgumentException("Payer is not part of the group: " + paidByUserId);
         }
+
         if (amount <= 0) {
             throw new IllegalArgumentException("Amount must be greater than zero");
         }
@@ -41,25 +46,28 @@ public class ExpenseService {
 
         Set<Integer> uniqueParticipantIds = new HashSet<>(participantIds);
         for (int participantId : uniqueParticipantIds) {
-            if (!group.getMemberIds().contains(participantId)) {
+            boolean isParticipantInGroup = group.getMembers().stream()
+                    .anyMatch(member -> member.getId() == participantId);
+            if (!isParticipantInGroup) {
                 throw new IllegalArgumentException("Participant is not part of the group: " + participantId);
             }
         }
 
         Map<Integer, Integer> splitAmounts = calculateEqualSplit(amount, uniqueParticipantIds);
-        Expense expense = new Expense(
-                expenseRepository.getNextId(),
-                groupId,
-                paidByUserId,
-                amount,
-                description,
-                splitAmounts
-        );
+        
+        Expense expense = new Expense();
+        expense.setGroup(group);
+        expense.setPayer(payer);
+        expense.setAmount(amount);
+        expense.setDescription(description);
+        expense.setSplitAmounts(splitAmounts);
 
-        expenseRepository.save(expense);
-        group.addExpenseId(expense.getId());
+        Expense savedExpense = expenseRepository.save(expense);
+        
+        group.addExpense(savedExpense);
         groupRepository.save(group);
-        return expense;
+        
+        return savedExpense;
     }
 
     private Map<Integer, Integer> calculateEqualSplit(int amount, Set<Integer> participantIds) {

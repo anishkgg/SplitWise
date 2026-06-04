@@ -1,6 +1,7 @@
 package service;
 
 import model.Group;
+import model.User;
 import repository.GroupRepository;
 import repository.UserRepository;
 
@@ -10,6 +11,7 @@ import lombok.RequiredArgsConstructor;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
+import java.util.stream.Collectors;
 
 @Service
 @RequiredArgsConstructor
@@ -25,24 +27,21 @@ public class GroupService {
             throw new IllegalArgumentException("Group must have at least one user");
         }
 
-        Set<Integer> uniqueMemberIds = new HashSet<>(memberIds);
-        for (int userId : uniqueMemberIds) {
-            if (!userRepository.existsById(userId)) {
-                throw new IllegalArgumentException("User does not exist: " + userId);
-            }
-        }
+        Set<User> members = memberIds.stream()
+                .map(id -> userRepository.findById(id)
+                        .orElseThrow(() -> new IllegalArgumentException("User does not exist: " + id)))
+                .collect(Collectors.toSet());
 
-        Group group = new Group(groupRepository.getNextId(), name.trim(), uniqueMemberIds);
-        groupRepository.save(group);
-        return group;
+        Group group = new Group();
+        group.setName(name.trim());
+        group.setMembers(members);
+        
+        return groupRepository.save(group);
     }
 
     public Group getGroupById(int groupId) {
-        Group group = groupRepository.findById(groupId);
-        if (group == null) {
-            throw new IllegalArgumentException("Group does not exist: " + groupId);
-        }
-        return group;
+        return groupRepository.findById(groupId)
+                .orElseThrow(() -> new IllegalArgumentException("Group does not exist: " + groupId));
     }
 
     public List<Group> getAllGroups() {

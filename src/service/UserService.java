@@ -18,17 +18,14 @@ public class UserService {
             throw new IllegalArgumentException("User name cannot be empty");
         }
 
-        User user = new User(userRepository.getNextId(), name.trim());
-        userRepository.save(user);
-        return user;
+        User user = new User();
+        user.setName(name.trim());
+        return userRepository.save(user);
     }
 
     public User getUserById(int userId) {
-        User user = userRepository.findById(userId);
-        if (user == null) {
-            throw new IllegalArgumentException("User does not exist: " + userId);
-        }
-        return user;
+        return userRepository.findById(userId)
+                .orElseThrow(() -> new IllegalArgumentException("User does not exist: " + userId));
     }
 
     public List<User> getAllUsers() {

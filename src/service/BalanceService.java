@@ -2,6 +2,7 @@ package service;
 
 import model.Balance;
 import model.Expense;
+import model.Group;
 import repository.ExpenseRepository;
 import repository.GroupRepository;
 
@@ -19,7 +20,7 @@ public class BalanceService {
     private final ExpenseRepository expenseRepository;
     private final GroupRepository groupRepository;
 
-    public List<Balance>  calculateBalances(int groupId) {
+    public List<Balance> calculateBalances(int groupId) {
         if (!groupRepository.existsById(groupId)) {
             throw new IllegalArgumentException("Group does not exist: " + groupId);
         }
@@ -28,9 +29,10 @@ public class BalanceService {
         List<Expense> expenses = expenseRepository.findByGroupId(groupId);
 
         for (Expense expense : expenses) {
+            int payerId = expense.getPayer().getId();
             netBalances.put(
-                    expense.getPaidByUserId(),
-                    netBalances.getOrDefault(expense.getPaidByUserId(), 0) + expense.getAmount()
+                    payerId,
+                    netBalances.getOrDefault(payerId, 0) + expense.getAmount()
             );
 
             for (Map.Entry<Integer, Integer> split : expense.getSplitAmounts().entrySet()) {

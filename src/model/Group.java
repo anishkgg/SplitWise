@@ -1,5 +1,6 @@
 package model;
 
+import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -9,23 +10,31 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
+@Entity
+@Table(name = "split_groups")
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
 public class Group {
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
+
     private String name;
-    private Set<Integer> memberIds = new HashSet<>();
-    private List<Integer> expenseIds = new ArrayList<>();
 
-    public Group(int id, String name, Set<Integer> memberIds) {
-        this.id = id;
-        this.name = name;
-        this.memberIds = new HashSet<>(memberIds);
-        this.expenseIds = new ArrayList<>();
-    }
+    @ManyToMany
+    @JoinTable(
+            name = "group_members",
+            joinColumns = @JoinColumn(name = "group_id"),
+            inverseJoinColumns = @JoinColumn(name = "user_id")
+    )
+    private Set<User> members = new HashSet<>();
 
-    public void addExpenseId(int expenseId) {
-        this.expenseIds.add(expenseId);
+    @OneToMany(mappedBy = "group", cascade = CascadeType.ALL)
+    private List<Expense> expenses = new ArrayList<>();
+
+    public void addExpense(Expense expense) {
+        this.expenses.add(expense);
+        expense.setGroup(this);
     }
 }
