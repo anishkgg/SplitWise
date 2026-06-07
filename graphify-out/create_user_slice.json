@@ -1,0 +1,349 @@
+{
+  "nodes": [
+    {
+      "label": ".createUser()",
+      "file_type": "code",
+      "source_file": "src/controller/SplitWiseController.java",
+      "source_location": "L36",
+      "community": 0,
+      "norm_label": ".createuser()",
+      "id": "controller_splitwisecontroller_splitwisecontroller_createuser"
+    },
+    {
+      "label": "User",
+      "file_type": "code",
+      "source_file": "src/controller/SplitWiseController.java",
+      "source_location": "L36",
+      "community": 0,
+      "norm_label": "user",
+      "id": "src_controller_splitwisecontroller_java_user"
+    },
+    {
+      "label": ".getUserById()",
+      "file_type": "code",
+      "source_file": "src/controller/SplitWiseController.java",
+      "source_location": "L40",
+      "community": 0,
+      "norm_label": ".getuserbyid()",
+      "id": "controller_splitwisecontroller_splitwisecontroller_getuserbyid"
+    },
+    {
+      "label": ".getUsers()",
+      "file_type": "code",
+      "source_file": "src/controller/SplitWiseController.java",
+      "source_location": "L44",
+      "community": 0,
+      "norm_label": ".getusers()",
+      "id": "controller_splitwisecontroller_splitwisecontroller_getusers"
+    },
+    {
+      "label": "User.java",
+      "file_type": "code",
+      "source_file": "src/model/User.java",
+      "source_location": "L1",
+      "community": 12,
+      "norm_label": "user.java",
+      "id": "src_model_user_java"
+    },
+    {
+      "label": "User",
+      "file_type": "code",
+      "source_file": "src/model/User.java",
+      "source_location": "L7",
+      "community": 12,
+      "norm_label": "user",
+      "id": "model_user_user"
+    },
+    {
+      "label": "UserRepository.java",
+      "file_type": "code",
+      "source_file": "src/repository/UserRepository.java",
+      "source_location": "L1",
+      "community": 1,
+      "norm_label": "userrepository.java",
+      "id": "src_repository_userrepository_java"
+    },
+    {
+      "label": "UserRepository",
+      "file_type": "code",
+      "source_file": "src/repository/UserRepository.java",
+      "source_location": "L10",
+      "community": 1,
+      "norm_label": "userrepository",
+      "id": "repository_userrepository_userrepository"
+    },
+    {
+      "label": ".UserRepository()",
+      "file_type": "code",
+      "source_file": "src/repository/UserRepository.java",
+      "source_location": "L14",
+      "community": 1,
+      "norm_label": ".userrepository()",
+      "id": "repository_userrepository_userrepository_userrepository"
+    },
+    {
+      "label": ".save()",
+      "file_type": "code",
+      "source_file": "src/repository/UserRepository.java",
+      "source_location": "L23",
+      "community": 1,
+      "norm_label": ".save()",
+      "id": "repository_userrepository_userrepository_save"
+    },
+    {
+      "label": "User",
+      "file_type": "code",
+      "source_file": "src/repository/UserRepository.java",
+      "source_location": "L23",
+      "community": 1,
+      "norm_label": "user",
+      "id": "src_repository_userrepository_java_user"
+    },
+    {
+      "label": "UserService.java",
+      "file_type": "code",
+      "source_file": "src/service/UserService.java",
+      "source_location": "L1",
+      "community": 7,
+      "norm_label": "userservice.java",
+      "id": "src_service_userservice_java"
+    },
+    {
+      "label": "UserService",
+      "file_type": "code",
+      "source_file": "src/service/UserService.java",
+      "source_location": "L10",
+      "community": 7,
+      "norm_label": "userservice",
+      "id": "service_userservice_userservice"
+    },
+    {
+      "label": ".createUser()",
+      "file_type": "code",
+      "source_file": "src/service/UserService.java",
+      "source_location": "L14",
+      "community": 7,
+      "norm_label": ".createuser()",
+      "id": "service_userservice_userservice_createuser"
+    },
+    {
+      "label": "User",
+      "file_type": "code",
+      "source_file": "src/service/UserService.java",
+      "source_location": "L14",
+      "community": 7,
+      "norm_label": "user",
+      "id": "src_service_userservice_java_user"
+    },
+    {
+      "label": ".getUserById()",
+      "file_type": "code",
+      "source_file": "src/service/UserService.java",
+      "source_location": "L24",
+      "community": 7,
+      "norm_label": ".getuserbyid()",
+      "id": "service_userservice_userservice_getuserbyid"
+    },
+    {
+      "label": ".getAllUsers()",
+      "file_type": "code",
+      "source_file": "src/service/UserService.java",
+      "source_location": "L32",
+      "community": 7,
+      "norm_label": ".getallusers()",
+      "id": "service_userservice_userservice_getallusers"
+    }
+  ],
+  "links": [
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/controller/SplitWiseController.java",
+      "source_location": "L36",
+      "weight": 1.0,
+      "context": "return_type",
+      "confidence_score": 1.0,
+      "source": "controller_splitwisecontroller_splitwisecontroller_createuser",
+      "target": "src_controller_splitwisecontroller_java_user"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/controller/SplitWiseController.java",
+      "source_location": "L40",
+      "weight": 1.0,
+      "context": "return_type",
+      "confidence_score": 1.0,
+      "source": "controller_splitwisecontroller_splitwisecontroller_getuserbyid",
+      "target": "src_controller_splitwisecontroller_java_user"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/controller/SplitWiseController.java",
+      "source_location": "L44",
+      "weight": 1.0,
+      "context": "generic_arg",
+      "confidence_score": 1.0,
+      "source": "controller_splitwisecontroller_splitwisecontroller_getusers",
+      "target": "src_controller_splitwisecontroller_java_user"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/controller/SplitWiseController.java",
+      "source_location": "L45",
+      "weight": 1.0,
+      "source": "controller_splitwisecontroller_splitwisecontroller_getusers",
+      "target": "service_userservice_userservice_getallusers"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/model/User.java",
+      "source_location": "L7",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_model_user_java",
+      "target": "model_user_user"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/repository/UserRepository.java",
+      "source_location": "L10",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_repository_userrepository_java",
+      "target": "repository_userrepository_userrepository"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/repository/UserRepository.java",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_repository_userrepository_java",
+      "target": "src_repository_userrepository_java_user"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/repository/UserRepository.java",
+      "source_location": "L23",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "repository_userrepository_userrepository",
+      "target": "repository_userrepository_userrepository_save"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/repository/UserRepository.java",
+      "source_location": "L14",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "repository_userrepository_userrepository",
+      "target": "repository_userrepository_userrepository_userrepository"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/repository/UserRepository.java",
+      "source_location": "L23",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "confidence_score": 1.0,
+      "source": "repository_userrepository_userrepository_save",
+      "target": "src_repository_userrepository_java_user"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/service/UserService.java",
+      "source_location": "L10",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_service_userservice_java",
+      "target": "service_userservice_userservice"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/service/UserService.java",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_service_userservice_java",
+      "target": "src_service_userservice_java_user"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/service/UserService.java",
+      "source_location": "L14",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "service_userservice_userservice",
+      "target": "service_userservice_userservice_createuser"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/service/UserService.java",
+      "source_location": "L32",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "service_userservice_userservice",
+      "target": "service_userservice_userservice_getallusers"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/service/UserService.java",
+      "source_location": "L24",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "service_userservice_userservice",
+      "target": "service_userservice_userservice_getuserbyid"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/service/UserService.java",
+      "source_location": "L14",
+      "weight": 1.0,
+      "context": "return_type",
+      "confidence_score": 1.0,
+      "source": "service_userservice_userservice_createuser",
+      "target": "src_service_userservice_java_user"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/service/UserService.java",
+      "source_location": "L32",
+      "weight": 1.0,
+      "context": "generic_arg",
+      "confidence_score": 1.0,
+      "source": "service_userservice_userservice_getallusers",
+      "target": "src_service_userservice_java_user"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/service/UserService.java",
+      "source_location": "L24",
+      "weight": 1.0,
+      "context": "return_type",
+      "confidence_score": 1.0,
+      "source": "service_userservice_userservice_getuserbyid",
+      "target": "src_service_userservice_java_user"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+name: "SplitWise"
+packages:
+- "controller"
+- "service"
+- "repository"
+- "model"
+appmap_dir: "tmp/appmap"
