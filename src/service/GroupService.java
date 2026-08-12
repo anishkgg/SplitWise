@@ -1,38 +1,50 @@
 package service;
 
 import model.Group;
-import repository.GroupDB;
+import model.User;
+import repository.GroupRepository;
+import repository.UserRepository;
 
-import java.util.ArrayList;
+import org.springframework.stereotype.Service;
+import lombok.RequiredArgsConstructor;
+
 import java.util.HashSet;
-import java.util.Scanner;
+import java.util.List;
+import java.util.Set;
+import java.util.stream.Collectors;
 
+@Service
+@RequiredArgsConstructor
 public class GroupService {
-    GroupDB groupDB;
+    private final GroupRepository groupRepository;
+    private final UserRepository userRepository;
 
-    public GroupService(){
-        this.groupDB = new GroupDB();
-    }
-
-    public Group createGroup(Scanner scn){
-        System.out.println("How many users you want to add in this group !!");
-        int totalUser = scn.nextInt();
-        HashSet<Integer> userIds = new HashSet<>();
-        for(int i  = 0; i < totalUser; i++){
-            System.out.println(String.format("Enter id of %d user", i));
-            int userId = scn.nextInt();
-            userIds.add(userId);
+    public Group createGroup(String name, Set<Integer> memberIds) {
+        if (name == null || name.trim().isEmpty()) {
+            throw new IllegalArgumentException("Group name cannot be empty");
+        }
+        if (memberIds == null || memberIds.isEmpty()) {
+            throw new IllegalArgumentException("Group must have at least one user");
         }
 
+        Set<User> members = memberIds.stream()
+                .map(id -> userRepository.findById(id)
+                        .orElseThrow(() -> new IllegalArgumentException("User does not exist: " + id)))
+                .collect(Collectors.toSet());
+
         Group group = new Group();
-        int id = groupDB.tellTotalGroups() + 1;
-        group.setId(id);
-        group.setUsers(userIds);
-        group.setTransactions(new ArrayList<>());
+        group.setName(name.trim());
+        group.setMembers(members);
+        
+        return groupRepository.save(group);
+    }
 
-        groupDB.saveGroup(group);
+    public Group getGroupById(int groupId) {
+        return groupRepository.findById(groupId)
+                .orElseThrow(() -> new IllegalArgumentException("Group does not exist: " + groupId));
+    }
 
-        return group;
-
+    public List<Group> getAllGroups() {
+        return groupRepository.findAll();
     }
 }

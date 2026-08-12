@@ -1,52 +1,40 @@
 package model;
 
+import jakarta.persistence.*;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
+@Entity
+@Table(name = "split_groups")
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
 public class Group {
-    int id;
-    HashSet<Integer> users;
-    List<Transaction> transactions;
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private int id;
 
-    public Group(int id, HashSet<Integer> users, List<Transaction> transactions) {
-        this.id = id;
-        this.users = users;
-        this.transactions = transactions;
-    }
+    private String name;
 
-    public Group() {
-    }
+    @ManyToMany
+    @JoinTable(
+            name = "group_members",
+            joinColumns = @JoinColumn(name = "group_id"),
+            inverseJoinColumns = @JoinColumn(name = "user_id")
+    )
+    private Set<User> members = new HashSet<>();
 
-    public int getId() {
-        return id;
-    }
+    @OneToMany(mappedBy = "group", cascade = CascadeType.ALL)
+    private List<Expense> expenses = new ArrayList<>();
 
-    public void setId(int id) {
-        this.id = id;
-    }
-
-    public HashSet<Integer> getUsers() {
-        return users;
-    }
-
-    public void setUsers(HashSet<Integer> users) {
-        this.users = users;
-    }
-
-    public List<Transaction> getTransactions() {
-        return transactions;
-    }
-
-    public void setTransactions(List<Transaction> transactions) {
-        this.transactions = transactions;
-    }
-
-    @Override
-    public String toString() {
-        return "Group{" +
-                "id=" + id +
-                ", users=" + users +
-                ", transactions=" + transactions +
-                '}';
+    public void addExpense(Expense expense) {
+        this.expenses.add(expense);
+        expense.setGroup(this);
     }
 }
